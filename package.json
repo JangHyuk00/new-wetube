@@ -1,0 +1,27 @@
+{
+  "name": "new-wetube",
+  "version": "1.0.0",
+  "description": "My way of watching video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JangHyuk00/new-wetube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Jimmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JangHyuk00/new-wetube/issues"
+  },
+  "homepage": "https://github.com/JangHyuk00/new-wetube#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
+  }
+}
