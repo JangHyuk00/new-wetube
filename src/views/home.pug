@@ -1,0 +1,9 @@
+extends base
+include mixins/video
+
+block content
+    h2 Welcome to see my video
+    each video in videos 
+        +video(video)
+    else
+        li there is nothing.
